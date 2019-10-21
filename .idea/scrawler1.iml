@@ -4,6 +4,7 @@
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/scrapydemo/tutorial" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/scrapydemo/image360" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/scrapydemo/behance" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/venv" />
     </content>
     <orderEntry type="inheritedJdk" />
