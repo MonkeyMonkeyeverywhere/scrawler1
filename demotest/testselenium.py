@@ -1,10 +1,15 @@
 from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.wait import WebDriverWait
 
-browser = webdriver.Chrome()
+chrome_options = Options()
+chrome_options.add_argument('--headless')
+browser = webdriver.Chrome(options=chrome_options,
+                           executable_path='C:\\Users\\lw\\Downloads\\chromedriver_win32\\chromedriver.exe')
+
 try:
     browser.get('https://www.baidu.com/')
     input = browser.find_element_by_id('kw')
